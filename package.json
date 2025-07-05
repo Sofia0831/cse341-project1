@@ -2,6 +2,11 @@
   "name": "cse341-project1",
   "version": "1.0.0",
   "description": "Pantas-week01-project1",
+  "keywords": [
+    "Project",
+    "contacts",
+    "week01"
+  ],
   "homepage": "https://github.com/Sofia0831/cse341-project1#readme",
   "bugs": {
     "url": "https://github.com/Sofia0831/cse341-project1/issues"
@@ -15,6 +20,13 @@
   "type": "commonjs",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
